@@ -8,6 +8,7 @@ class Solution(object):
         right=len(s)-1
         while left<right:
             s[left],s[right]=s[right],s[left]
-            left=left+1
-            right=right-1
+            left+=1
+            right-=1
+       
         
